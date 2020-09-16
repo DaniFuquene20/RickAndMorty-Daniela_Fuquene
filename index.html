@@ -1,0 +1,91 @@
+<!DOCTYPE html> <!--Especifica la version de HTML que vamos a utilizar-->
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick and Morty</title>
+    <link rel="icon" type="image" href="images/Logo.png">
+    <link href = "https://fonts.googleapis.com/css2? family = Architects + Daughter & display = swap" rel = "stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body background="./images/Background.png">
+    <nav class="main-menu ">
+        <img src="./images/Logo.png " width="90" height="50">
+    
+        <ul class="main-menu opt-menu">
+            <li><a>Inicio</a></li>
+            <li><a href="sobreMi.html" >Sobre mi</a></li>
+            <li><a href="contact.html" >Contactenos</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1 class="font-h">Personajes Rick and Morty</h1>
+        <section class="main-character">
+            <article class="character">
+                    <div id="cambio1" class="font-div" class="form-btn">Ethan</div>
+                    <button class="form-btn">
+                        <a onclick="cambiarNombre1('cambio1')">Cambiar nombre</a>
+                    </button>
+                <img  class="margin-img"  src="images/Ethan.jpeg" width="220" height="220">
+                <div class="font-h">
+                    <p><b>Genero:</b> Maculino</p>
+                    <p><b>Especie:</b>Humano</p>
+                </div>
+                
+            </article>
+            <article class="character">
+                    <div id="cambio2" class="font-div" class="form-btn">Beth</div>
+                    <button class="form-btn">
+                        <a onclick="cambiarNombre1('cambio2')">Cambiar nombre</a>
+                    </button>
+                <img class="margin-img" src="images/Beth.jpeg" width="220" height="220">
+                <div class="font-h">
+                    <p><b>Genero:</b>Femenino</p>
+                    <p><b>Especie:</b>Humano</p>
+                </div>
+            </article>
+            <article class="character">
+                <div id="cambio3" class="font-div" class="form-btn">Arthricia</div>
+                    <button class="form-btn">
+                        <a onclick="cambiarNombre1('cambio3')">Cambiar nombre</a>
+                    </button>
+                <img class="margin-img" src="images/Arthricia.jpeg" width="220" height="220">
+                <div class="font-h">
+                    <p><b>Genero:</b>Femenino</p>
+                    <p><b>Especie:</b>Humano</p>
+                </div>
+            </article>
+            <article class="character">
+                <div id="cambio4" class="font-div" class="form-btn">Davin</div>
+                    <button class="form-btn">
+                        <a onclick="cambiarNombre1('cambio4')">Cambiar nombre</a>
+                    </button>
+                <img class="margin-img" src="images/Davin.jpeg" width="220" height="220">
+                <div class="font-h">
+                    <p><b>Genero:</b> Maculino</p>
+                    <p><b>Especie:</b>Humano</p>
+                </div>
+            </article>
+            <article class="character">
+                <div id="cambio5" class="font-div" class="form-btn">Diane Sanchez</div>
+                    <button class="form-btn">
+                        <a onclick="cambiarNombre1('cambio5')">Cambiar nombre</a>
+                    </button>
+                <img class="margin-img" src="images/DianeSanchez.jpeg" width="220" height="220">
+                <div class="font-h">
+                    <p><b>Genero:</b>Femenino</p>
+                    <p><b>Especie:</b>Humano</p>
+                </div>
+            </article>
+        </section>
+    </div>
+    
+    <footer>
+        <p>
+            Hecho con <i class="fas fa-heart"></i> por Daniela Fuquene
+        </p>
+    </footer>
+    <script src="./scripts.js"></script>
+</body>
+</html>
